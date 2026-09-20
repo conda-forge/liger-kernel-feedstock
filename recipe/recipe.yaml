@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.8.2"
+  version: "0.8.3"
 
 package:
   name: liger-kernel
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/l/liger-kernel/liger_kernel-${{ version }}.tar.gz
-  sha256: 387673ed6bf64fc8150cc8315fed578d2fc717ec3450f53489f480880223c1b8
+  sha256: a5b2a1e297da9e4e8a95b7f303d5b73d1a2fdd023b72d380164f12854551e168
 
 build:
   number: 0
@@ -43,6 +43,8 @@ about:
   license_file:
     - LICENSE
     - NOTICE
+    - src/liger_kernel/ops/backends/_cutedsl/_cute_lib/NOTICE.md
+    - liger_cute_kernels/LICENSE
     - licenses/LICENSE-MIT-Efficient-Cross-Entropy
     - licenses/LICENSE-MIT-triton
     - licenses/LICENSE-MIT-llmc
