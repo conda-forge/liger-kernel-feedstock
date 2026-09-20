@@ -43,6 +43,8 @@ about:
   license_file:
     - LICENSE
     - NOTICE
+    - src/liger_kernel/ops/backends/_cutedsl/_cute_lib/NOTICE.md
+    - liger_cute_kernels/LICENSE
     - licenses/LICENSE-MIT-Efficient-Cross-Entropy
     - licenses/LICENSE-MIT-triton
     - licenses/LICENSE-MIT-llmc
