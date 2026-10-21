@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.8.4"
+  version: "0.8.5"
 
 package:
   name: liger-kernel
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/l/liger-kernel/liger_kernel-${{ version }}.tar.gz
-  sha256: e4ef9b7a30c69f207ffbe37fdf95e391ba72ac5b4ee0a333f55732c47e661750
+  sha256: 4e8f8f611a8ad735c37c989410d09820bb08881f131851a3967c34baa7889d66
 
 build:
   number: 0
